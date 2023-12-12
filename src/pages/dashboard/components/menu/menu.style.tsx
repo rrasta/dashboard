@@ -22,7 +22,7 @@ export const MenuList = styled('ul')`
 `
 
 export const MenuItem = styled('li')`
-  font-family: Poppins;
+  font-family: Poppins; // to nie jest generyk
   width: 80%;
   padding: 10px;
   cursor: revert;
