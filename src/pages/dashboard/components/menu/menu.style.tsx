@@ -18,7 +18,7 @@ export const MenuList = styled('ul')`
   list-style: none;
   padding: 0;
   width: 100%;
-    display: compact;
+  display: compact;
 `
 
 export const MenuItem = styled('li')`
@@ -33,7 +33,7 @@ export const MenuItem = styled('li')`
   &:hover {
     background-color: #9ac4fc;
     width: 80%;
-      border-radius: 10px;
+    border-radius: 10px;
   }
 
   svg {
@@ -42,7 +42,7 @@ export const MenuItem = styled('li')`
 `
 
 export const LogoutButton = styled(MenuItem)`
-    margin-top: 30rem;
+  margin-top: 30rem;
   background: transparent;
 
   &:hover {
