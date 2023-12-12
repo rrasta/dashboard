@@ -13,7 +13,9 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router": "^6.20.1",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -25,6 +27,11 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-hooks": "^1.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
     "prettier": "3.0.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.5"
