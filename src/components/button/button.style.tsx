@@ -11,8 +11,6 @@ export const ButtonStyled = styled.button`
   align-items: center;
   justify-content: center;
   gap: 10px;
-
-  transition: background-color 0.3s;
   background-color: var(--button-color-default);
 
   &:disabled {
