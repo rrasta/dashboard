@@ -1,6 +1,8 @@
 :root {
 --ui-color-background-light:rgba(244, 245, 250, 1);
-
+  --button-color-default:rgba(85, 112, 241, 1);
+   --button-color-press:rgba(91, 110, 198, 1);
+   --button-color-disabled:rgba(85, 112, 241, 1);
 }
 
 html, body {
