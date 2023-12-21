@@ -4,8 +4,9 @@ import { ButtonStyled } from './button.style'
 
 interface ButtonProps {
   children: React.ReactNode
-  onClick?: () => void
   disabled?: boolean
+
+  onClick?: () => void
 }
 
 export const Button: React.FC<ButtonProps> = ({
