@@ -13,5 +13,6 @@ export const ButtonStyled = styled.button`
 
   &:disabled {
     background-color: var(--button-color-disabled);
+    opacity: 60%;
   }
 `
