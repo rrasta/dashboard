@@ -1,14 +1,36 @@
 :root {
---ui-color-background-light:rgba(244, 245, 250, 1);
-  --button-color-default:rgba(85, 112, 241, 1);
-   --button-color-press:rgba(91, 110, 198, 1);
-   --button-color-disabled:rgba(85, 112, 241, 1);
+    --ui-color-white: #fff;
+    --ui-color-secondary-20: #FEF5EA;
+    --ui-color-primary-100: #5570F1;
+    --ui-color-black-60: #45464E;
+    --ui-color-black-100: #1C1D22;
+
+
+    --ui-color-background-light:rgba(244, 245, 250, 1);
+
+
+    --ui-border-radius-sm: 8px;
+    --ui-border-radius-md: 12px;
+
+    --ui-size-xs: 7px;
+    --ui-size-sm: 14px;
+    --ui-size-md: 21px;
+    --ui-size-lg: 28px;
+
+
+    --button-color-default:rgba(85, 112, 241, 1);
+    --button-color-press:rgba(91, 110, 198, 1);
+    --button-color-disabled:rgba(85, 112, 241, 1);
 }
 
 html, body {
-  font-family: "Poppins", serif;
-  margin: 0;
-  padding: 0;
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: unset;
 }
 
 #root {
