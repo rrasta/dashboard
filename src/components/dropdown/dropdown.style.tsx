@@ -13,9 +13,4 @@ export const DropdownStyled = styled('div')<{ variant: InputVariant }>`
 
   display: flex;
   align-items: center;
-  gap: var(--ui-size-sm);
-`
-
-export const LabelStyled = styled('label')``
-
-export const ActionIcon = styled('div')``
+  '
